@@ -1,0 +1,28 @@
+{
+  "name": "List Tabs",
+  "version": "1.0",
+  "description": "List URLs of all open tabs for saving, emailing, etc.",
+  "permissions": [
+    "clipboardWrite",
+    "declarativeContent",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/list-16.png",
+      "32": "assets/list-32.png",
+      "48": "assets/list-48.png",
+      "64": "assets/list-64.png",
+      "128": "assets/list-128.png"
+    }
+  },
+  "icons": {
+    "16": "assets/list-16.png",
+    "32": "assets/list-32.png",
+    "48": "assets/list-48.png",
+    "64": "assets/list-64.png",
+    "128": "assets/list-128.png"
+  },
+  "manifest_version": 2
+}
