@@ -1,5 +1,5 @@
 {
-  "name": "List Tabs",
+  "name": "Tab List",
   "version": "1.0",
   "description": "List URLs of all open tabs for saving, emailing, etc.",
   "permissions": [
