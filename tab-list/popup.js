@@ -18,7 +18,7 @@ chrome.tabs.query({},function(tabs) {
     a.setAttribute("target", "_blank");
     a.setAttribute("href", tab.url);
     let img = document.createElement("img");
-    img.setAttribute("src", tab.favIconUrl || "placeholder.png");
+    img.setAttribute("src", tab.favIconUrl || "assets/placeholder.png");
     a.appendChild(img);
     let span = document.createElement("span");
     span.textContent = tab.title;
