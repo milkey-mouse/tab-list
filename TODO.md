@@ -1,0 +1,2 @@
+- re-pack v1.1 with original cert so users don't have to reinstall
+- github action for publishing releases (this has to already exist right?)
